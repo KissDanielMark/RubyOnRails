@@ -4,11 +4,15 @@
     <div id="header"></div> 
         <div id="main">
             <div id="menu"> 
-            <%= render 'layouts/guest' %>
+                <% if logged_in? %>
+                    <%= render 'layouts/user' %>
+                <% else %>
+                    <%= render 'layouts/guest' %>
+                <% end %>
             </div>
             <div id="content"><%= yield %> </div>
         </div>
         <div id="footer">
-            RoR, 2023 
+            uMap, 2023 
         </div>
 </div>
