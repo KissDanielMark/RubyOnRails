@@ -1138,3 +1138,50 @@ Started GET "/users/forgotten" for 127.0.0.1 at 2023-04-22 15:48:14 +0200
   
 ActionController::RoutingError (No route matches [GET] "/users/forgotten"):
   
+Started GET "/orarend/get" for 127.0.0.1 at 2023-04-22 15:51:29 +0200
+Processing by OrarendController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orarend/get.html.erb within layouts/application
+  Rendered orarend/get.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered layouts/_guest.html.erb (Duration: 1.3ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1768)
+Completed 200 OK in 7ms (Views: 6.8ms | Allocations: 2906)
+
+
+Started GET "/helyettesites/get" for 127.0.0.1 at 2023-04-22 15:51:30 +0200
+Processing by HelyettesitesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering helyettesites/get.html.erb within layouts/application
+  Rendered helyettesites/get.html.erb within layouts/application (Duration: 1.5ms | Allocations: 133)
+  Rendered layouts/_guest.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1336)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 2265)
+
+
+Started GET "/csengetes/get" for 127.0.0.1 at 2023-04-22 15:51:32 +0200
+Processing by CsengetesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering csengetes/get.html.erb within layouts/application
+  Rendered csengetes/get.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered layouts/_guest.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1336)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 2265)
+
+
+Started GET "/beallitasok/get" for 127.0.0.1 at 2023-04-22 15:51:33 +0200
+Processing by BeallitasokController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering beallitasok/get.html.erb within layouts/application
+  Rendered beallitasok/get.html.erb within layouts/application (Duration: 0.9ms | Allocations: 131)
+  Rendered layouts/_guest.html.erb (Duration: 0.9ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 1333)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 2261)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-22 15:51:34 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 492)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 1459)
+
+

@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'say/hello'
   get 'orarend/get'
   get 'beallitasok/get'
+  get 'csengetes/get'
+  get 'helyettesites/get'
 end
