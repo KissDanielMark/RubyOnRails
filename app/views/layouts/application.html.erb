@@ -3,7 +3,9 @@
 <div id="page">
     <div id="header"></div> 
         <div id="main">
-            <div id="menu"> </div>
+            <div id="menu"> 
+            <%= render 'layouts/guest' %>
+            </div>
             <div id="content"><%= yield %> </div>
         </div>
         <div id="footer">

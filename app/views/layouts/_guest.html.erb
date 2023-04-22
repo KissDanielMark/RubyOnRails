@@ -1,1 +1,11 @@
-Hello valaki!
+Hello , valaki !
+<fieldset>
+    <legend>Login</legend>
+        <%=form_tag '/sessions/create', method: :post do%>
+        <%= label_tag 'email', 'Email' %>
+        <%= text_field_tag 'email', '', size: 14 %> 
+        <%= submit_tag 'Login' %> 
+    <% end %>
+</fieldset>
+<%= link_to "Register", '/users/new' %><br/>
+<%= link_to "Forgotten password", '/users/forgotten' %>
