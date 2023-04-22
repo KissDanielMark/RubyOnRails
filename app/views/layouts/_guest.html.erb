@@ -1,11 +1,6 @@
-Hello , valaki !
-<fieldset>
-    <legend>Login</legend>
-        <%=form_tag '/sessions/create', method: :post do%>
-        <%= label_tag 'email', 'Email' %>
-        <%= text_field_tag 'email', '', size: 14 %> 
-        <%= submit_tag 'Login' %> 
-    <% end %>
-</fieldset>
-<%= link_to "Register", '/users/new' %><br/>
-<%= link_to "Forgotten password", '/users/forgotten' %>
+<%= link_to "Órarend", '/orarend/get' %><br/>
+<%= link_to "Helyettesítés", '/users/forgotten' %> <br/>
+<%= link_to "Csengetés", '/users/forgotten' %><br/>
+<%= link_to "Beállítások", '/beallitasok/get' %><br/>
+<%= link_to "Kilépés", '/users/forgotten' %><br/>
+<p>Version: 0.0.1</p>

@@ -1,5 +1,5 @@
 div#page {
-    width: 800px;
+    width: 100%;
 }
 div#header {
     height: 100px; 
@@ -20,14 +20,14 @@ div#main {
     
 div#menu {
     float: left;
-    width: 25%;
+    width: 30%;
     height: 100%; 
     background-color: #0d0;
 }
 
 div#content {
     float: left;
-    width: 75%;
+    width: 70%;
     height: 100%;
     background-color : #eee ;
 }
