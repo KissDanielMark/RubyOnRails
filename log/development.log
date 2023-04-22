@@ -532,3 +532,165 @@ Processing by SayController#hello as HTML
 Completed 200 OK in 6ms (Views: 5.9ms | Allocations: 1025)
 
 
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:37:16 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 153)
+Completed 200 OK in 2ms (Views: 1.2ms | Allocations: 457)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:43:00 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.9ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 152)
+Completed 200 OK in 5ms (Views: 3.2ms | Allocations: 434)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:43:34 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 152)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 435)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:43:36 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 153)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 435)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:43:38 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 152)
+Completed 200 OK in 3ms (Views: 2.1ms | Allocations: 434)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:43:54 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1719)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 1989)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 7915)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:44:08 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 186)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 537)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:44:10 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 153)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 442)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:44:19 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 153)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 442)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:44:22 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 153)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 442)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:44:23 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 152)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:44:44 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1719)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1989)
+Completed 200 OK in 22ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7915)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:45:05 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 186)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 537)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:46:04 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.6ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 153)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 442)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:46:32 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.7ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 506)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:46:49 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.8ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 505)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 1593)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:50:29 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 1.0ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 179.5ms | Allocations: 29274)
+Completed 200 OK in 183ms (Views: 182.2ms | ActiveRecord: 0.0ms | Allocations: 30366)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2023-04-22 13:50:43 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.8ms | Allocations: 270)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1448)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2530)
+
+
