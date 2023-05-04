@@ -20,8 +20,9 @@ gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
-#gem 'warden', '~> 1.2', '>= 1.2.9'
-#gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'warden', '~> 1.2', '>= 1.2.9'
+gem 'bcrypt', '~> 3.1', '>= 3.1.18'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
