@@ -1,6 +1,6 @@
-class Csengetes < ApplicationRecord
-    def sajatFuggvenny()
-      print("Csengetes sajat fuggveny")
+class CsengetesModell < ApplicationRecord
+    def initialize(comment)
+        @comment = comment
+        print("init")
     end
 end
-  
