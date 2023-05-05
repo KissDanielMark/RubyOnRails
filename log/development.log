@@ -2969,3 +2969,63 @@ Processing by OrarendController#get as HTML
 Completed 200 OK in 95ms (Views: 63.8ms | ActiveRecord: 5.3ms | Allocations: 2920)
 
 
+Started GET "/helyettesites/get" for 127.0.0.1 at 2023-05-05 17:34:38 +0200
+Processing by HelyettesitesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering helyettesites/get.html.erb within layouts/application
+  Rendered helyettesites/get.html.erb within layouts/application (Duration: 2.3ms | Allocations: 12)
+  Rendered layouts/_user.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 1242)
+Completed 200 OK in 22ms (Views: 12.6ms | ActiveRecord: 1.2ms | Allocations: 2904)
+
+
+Started GET "/orarend/get" for 127.0.0.1 at 2023-05-05 17:34:54 +0200
+Processing by OrarendController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orarend/get.html.erb within layouts/application
+  Rendered orarend/get.html.erb within layouts/application (Duration: 0.1ms | Allocations: 14)
+  Rendered layouts/_user.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1237)
+Completed 200 OK in 15ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2304)
+
+
+Started GET "/helyettesites/get" for 127.0.0.1 at 2023-05-05 17:34:59 +0200
+Processing by HelyettesitesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering helyettesites/get.html.erb within layouts/application
+  Rendered helyettesites/get.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_user.html.erb (Duration: 0.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1018)
+Completed 200 OK in 16ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 1274)
+
+
+Started GET "/csengetes/get" for 127.0.0.1 at 2023-05-05 17:35:03 +0200
+Processing by CsengetesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering csengetes/get.html.erb within layouts/application
+  Rendered csengetes/get.html.erb within layouts/application (Duration: 1.7ms | Allocations: 112)
+  Rendered layouts/_user.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1335)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 0.4ms | Allocations: 2798)
+
+
+Started GET "/csengetes/get" for 127.0.0.1 at 2023-05-05 17:35:12 +0200
+Processing by CsengetesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering csengetes/get.html.erb within layouts/application
+  Rendered csengetes/get.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_user.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 1242)
+Completed 200 OK in 111ms (Views: 69.8ms | ActiveRecord: 1.0ms | Allocations: 2940)
+
+
+Started GET "/beallitasok/get" for 127.0.0.1 at 2023-05-05 17:35:15 +0200
+Processing by BeallitasokController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering beallitasok/get.html.erb within layouts/application
+  Rendered beallitasok/get.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_user.html.erb (Duration: 0.7ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 1234)
+Completed 200 OK in 44ms (Views: 32.7ms | ActiveRecord: 0.4ms | Allocations: 2472)
+
+

@@ -1,6 +1,6 @@
 class CsengetesModell < ApplicationRecord
     def initialize(comment)
         @comment = comment
-        print("init")
+        print("Csengetes init")
     end
 end
