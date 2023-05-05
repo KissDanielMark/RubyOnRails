@@ -2959,3 +2959,13 @@ Processing by BeallitasokController#get as HTML
 Completed 200 OK in 89ms (Views: 72.6ms | ActiveRecord: 0.6ms | Allocations: 2943)
 
 
+Started GET "/orarend/get" for 127.0.0.1 at 2023-05-05 17:21:43 +0200
+Processing by OrarendController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orarend/get.html.erb within layouts/application
+  Rendered orarend/get.html.erb within layouts/application (Duration: 0.2ms | Allocations: 14)
+  Rendered layouts/_user.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 46.9ms | Allocations: 1237)
+Completed 200 OK in 95ms (Views: 63.8ms | ActiveRecord: 5.3ms | Allocations: 2920)
+
+
