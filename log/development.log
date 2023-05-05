@@ -2877,3 +2877,45 @@ Migrating to CreateOrarendModells (20230505104124)
   [1m[36mTRANSACTION (4.2ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-05-05 16:26:19 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dan/.local/share/gem/ruby/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dan/.local/share/gem/ruby/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.7ms | Allocations: 585)
+Completed 200 OK in 29ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 4557)
+
+
+Started GET "/hello" for 127.0.0.1 at 2023-05-05 16:27:13 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/say/hello" for 127.0.0.1 at 2023-05-05 16:27:17 +0200
+Processing by SayController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 14.7ms | Allocations: 2251)
+  Rendered layouts/_user.html.erb (Duration: 1.4ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 655.3ms | Allocations: 31862)
+Completed 200 OK in 662ms (Views: 659.8ms | ActiveRecord: 0.0ms | Allocations: 32791)
+
+
+Started GET "/orarend/get" for 127.0.0.1 at 2023-05-05 16:27:19 +0200
+Processing by OrarendController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orarend/get.html.erb within layouts/application
+  Rendered orarend/get.html.erb within layouts/application (Duration: 0.9ms | Allocations: 130)
+  Rendered layouts/_user.html.erb (Duration: 1.6ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 1353)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 2062)
+
+
+Started GET "/helyettesites/get" for 127.0.0.1 at 2023-05-05 16:27:20 +0200
+Processing by HelyettesitesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering helyettesites/get.html.erb within layouts/application
+  Rendered helyettesites/get.html.erb within layouts/application (Duration: 4.4ms | Allocations: 107)
+  Rendered layouts/_user.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 1329)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.0ms | Allocations: 2024)
+
+
