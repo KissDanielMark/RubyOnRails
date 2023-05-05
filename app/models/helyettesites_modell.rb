@@ -1,0 +1,2 @@
+class HelyettesitesModell < ApplicationRecord
+end
