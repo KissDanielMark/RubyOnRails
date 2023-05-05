@@ -2919,3 +2919,43 @@ Processing by HelyettesitesController#get as HTML
 Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.0ms | Allocations: 2024)
 
 
+Started GET "/helyettesites/get" for 127.0.0.1 at 2023-05-05 16:41:48 +0200
+Processing by HelyettesitesController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering helyettesites/get.html.erb within layouts/application
+  Rendered helyettesites/get.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layouts/_user.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 1234)
+Completed 200 OK in 18ms (Views: 16.7ms | Allocations: 1796)
+
+
+Started GET "/beallitasok/get" for 127.0.0.1 at 2023-05-05 16:41:51 +0200
+Processing by BeallitasokController#get as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.4ms | Allocations: 1726)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/models/beallitasok_modell.rb:2:in `initialize'
+app/controllers/beallitasok_controller.rb:3:in `get'
+Started GET "/beallitasok/get" for 127.0.0.1 at 2023-05-05 16:48:46 +0200
+Processing by BeallitasokController#get as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.2ms | Allocations: 1319)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/models/beallitasok_modell.rb:2:in `initialize'
+app/controllers/beallitasok_controller.rb:3:in `get'
+Started GET "/beallitasok/get" for 127.0.0.1 at 2023-05-05 17:03:22 +0200
+Processing by BeallitasokController#get as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering beallitasok/get.html.erb within layouts/application
+  Rendered beallitasok/get.html.erb within layouts/application (Duration: 16.1ms | Allocations: 106)
+  Rendered layouts/_user.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 1335)
+Completed 200 OK in 89ms (Views: 72.6ms | ActiveRecord: 0.6ms | Allocations: 2943)
+
+
