@@ -1,0 +1,15 @@
+<h1>Beállítások</h1>
+
+<fieldset>
+  <legend>Szerkesztés</legend>
+  <%= form_for @bealllitas, url: update_beallitasok_path(@bealllitas), method: :put do |form| %>
+    <div>
+      <%= form.label :username %>
+      <%= form.text_field :username, size: 20 %>
+    </div>
+    <%= form.submit "Save" %>
+  <% end %>
+</fieldset>
+
+<%= link_to "Back", :back %>
+

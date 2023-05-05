@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   
   get 'orarend/get',to:'orarend#get',as:'orarend'
   get 'beallitasok/get'
+  get 'beallitasok/put'
   get 'csengetes/get'
   get 'helyettesites/get'
   post 'sessions/create', to: 'sessions#create', as: 'login' 
