@@ -1,6 +1,2 @@
-class Beallitasok < ApplicationRecord
-    def sajatFuggvenny()
-      print("Beallitasok sajat fuggveny")
-    end
+class BeallitasokModell < ApplicationRecord
 end
-  
