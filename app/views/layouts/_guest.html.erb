@@ -1,2 +1,9 @@
 <h2>Válassz osztályt!</h2>
-<a href="/sessions/create">Bejelentkezés</a>
+<fieldset>
+  <legend>Bejelentkezés</legend>
+  <%= form_tag login_path, method: :post do %>
+    <%= label_tag 'osztaly', 'Osztály' %>
+    <%= text_field_tag 'osztaly', '', size: 14 %>
+    <%= submit_tag 'Login' %>
+  <% end %>
+</fieldset>
